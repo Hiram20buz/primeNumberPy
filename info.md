@@ -100,4 +100,4 @@ Find the x and y.
 - Calculate  the primer number less than or equal to the square root of the number.
 - When doing so, generate only numbers whose last digits contain the list digitGenerators to save computer power.
 - Also, you can save more power knowing that Every prime number can be written in the form of 6n + 1 or 6n – 1.
-- 
+- Except for 2 and 3, any prime number can be written as '6n + 1' or '6n – 1'. So, if you have a number that isn't 2 or 3, try to express it in the form of 6n + 1 or 6n – 1 to see if it's prime or not. We now know that 5, 7, 11, and 13 are prime numbers.
