@@ -11,6 +11,7 @@ The factors of 789 are: 1, 3, 263, and 789.
 
 789 = (x + 1)( y + 9)  or (x + 3)( y + 3) or (x + 7)( y + 7)
 
+```
 
 decimalNumber = [1,2,3,4,5,6,7,8,9]
 (1,1) = 1
@@ -68,4 +69,5 @@ decimalNumber = [1,2,3,4,5,6,7,8,9]
 (9,9) = 81
 
 
+```
 Way to generate 9 are {(1,9), (3,3), (7,7)}
