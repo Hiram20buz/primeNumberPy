@@ -31,7 +31,9 @@ i = lambda x: int(x)
 
 
 ```
+Also,Every prime number can be written in the form of 6n + 1 or 6n – 1.
 
+https://tutorax.com/blogue/en/what-are-all-the-prime-numbers/#:~:text=Except%20for%202%20and%203,if%20it's%20prime%20or%20not.&text=We%20now%20know%20that%205,and%2013%20are%20prime%20numbers.
 ```
 
 decimalNumber = [1,2,3,4,5,6,7,8,9]
