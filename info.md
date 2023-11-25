@@ -8,8 +8,16 @@ https://byjus.com/maths/prime-factorization/#:~:text=The%20simplest%20algorithm%
 Create algorithm using string concatenation and factorization 
 
 The factors of 789 are: 1, 3, 263, and 789.
+```
+s = lambda x: str(x)
+i = lambda x: int(x)
 
-789 = (x + 1)( y + 9)  or (x + 3)( y + 3) or (x + 7)( y + 7)
+789 = i(p(x) + p(1)) * i(p(y) + p(9))
+789 = i(p(x) + p(3)) * i(p(y) + p(3))
+789 = i(p(x) + p(7)) * i(p(y) + p(7))
+
+
+```
 
 ```
 
