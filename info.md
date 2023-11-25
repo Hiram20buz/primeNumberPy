@@ -93,4 +93,11 @@ decimalNumber = [1,2,3,4,5,6,7,8,9]
 
 
 ```
-Way to generate 9 are {(1,9), (3,3), (7,7)}
+Way to generate 9 are {(1,9), (3,3), (7,7)} -> digitGenerators = [1,3,7,9]
+
+## Idea
+Find the x and y.
+- Calculate  the primer number less than or equal to the square root of the number.
+- When doing so, generate only numbers whose last digits contain the list digitGenerators to save computer power.
+- Also, you can save more power knowing that Every prime number can be written in the form of 6n + 1 or 6n – 1.
+- 
