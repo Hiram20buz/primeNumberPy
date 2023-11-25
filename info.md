@@ -8,6 +8,19 @@ https://byjus.com/maths/prime-factorization/#:~:text=The%20simplest%20algorithm%
 Create algorithm using string concatenation and factorization 
 
 The prime factors of 789 are: 3 and 263.
+
+A composite number is a positive integer greater than 1 that has more than two distinct positive divisors. 
+
+If a number is composite, it can be factored into smaller integers other than 1 and itself. For a composite number, at least one of its prime factors will be less than or equal to the square root of the number.
+
+To clarify:
+
+1. If a number \( n \) is composite, it can be expressed as \( n = a \times b \), where both \( a \) and \( b \) are integers greater than 1 and less than or equal to the square root of \( n \).
+
+2. If \( n \) is a composite number, it will have at least one prime factor \( p \) such that \( p \leq \sqrt{n} \).
+
+This property is useful in identifying whether a number is prime or composite. If a number has no divisors other than 1 and itself after testing divisibility up to its square root, then it's a prime number. If it has divisors other than 1 and itself within that range, it's a composite number.
+
 ```
 s = lambda x: str(x)
 i = lambda x: int(x)
